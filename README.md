@@ -20,7 +20,7 @@ Example:
 * Use ```subsampling=0``` for saving jpeg images with ```quality=100``` when using Pillow. This still leads to compression happening but shuts down some parts of the JPEG compression algorithm. 
 
 ```
-pillow_image.save('abcd.jpeg', format='JPEG', quality=0, subsampling=0)
+pillow_image.save('abcd.jpeg', format='JPEG', quality=100, subsampling=0)
 ```
 
 The difference with using ```subsampling=0``` can be seen below.
