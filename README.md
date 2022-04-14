@@ -8,6 +8,8 @@ But saving a PNG image to disc is time consuming. If there are some thousand ima
 
 On the other hand, JPEGs are easy to deal with, take less time to save on disc. But leads to data quality degradation. 
 
+**Checkout the [Notebook](https://github.com/Nachimak28/pil_image_jpeg_compression_analysis/blob/main/jpeg_compression_analysis.ipynb) for a working example and some insights**
+
 Example:
 ![JPEG comparison](https://github.com/Nachimak28/pil_image_jpeg_compression_analysis/blob/0992560d8694015bcdbd23baff52abf9018511b2/assets/jpeg_image_compression_visual_analysis.png)
 
@@ -21,10 +23,12 @@ Example:
 pillow_image.save('abcd.jpeg', format='JPEG', quality=0, subsampling=0)
 ```
 
-The difference with using ```subsampling=0``` can be seen below
+The difference with using ```subsampling=0``` can be seen below.
 
 
 ![JPEG subsampling comparison](https://github.com/Nachimak28/pil_image_jpeg_compression_analysis/blob/0992560d8694015bcdbd23baff52abf9018511b2/assets/jpeg_image_compression_visual_analysis_with_subsampling_0.png)
+
+We can't tell the difference with our eyes as we could in the earlier image.
 
 
 Also a simple analysis of average time taken to save respective image formats for a small 40x80 pixel image on disc is as follows:
