@@ -1,7 +1,7 @@
 # JPEG image compression analysis and trying to preserve pixel information
 
 We know that saving an image in the JPEG format leads to inveitable lossy compression.
-If dealing with applications which is sensitive to pixel intensities, one must be careful how to handle it. `
+If dealing with applications which are sensitive to pixel intensities, one must be careful how to handle it.
 
 To prevent any loss happening while saving images, PNG is the format to use.
 But saving a PNG image to as disc is time consuming. If there are some thousand images to process, the time taken to process and save images as PNG could increase significantly. 
