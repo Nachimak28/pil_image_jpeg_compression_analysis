@@ -9,7 +9,7 @@ But saving a PNG image to as disc is time consuming. If there are some thousand 
 On the other hand, JPEGs are easy to deal with, take less time to save on disc. But leads to data quality degradation. 
 
 Example:
-![JPEG comparison](assets\jpeg_image_compression_visual_analysis.png)
+![JPEG comparison](https://github.com/Nachimak28/pil_image_jpeg_compression_analysis/blob/0992560d8694015bcdbd23baff52abf9018511b2/assets/jpeg_image_compression_visual_analysis.png)
 
 ## Solution:
 
@@ -20,12 +20,12 @@ Example:
 The difference with using ```subsampling=0``` can be seen below
 
 
-![JPEG subsampling comparison](assets\jpeg_image_compression_visual_analysis_with_subsampling_0.png)
+![JPEG subsampling comparison](https://github.com/Nachimak28/pil_image_jpeg_compression_analysis/blob/0992560d8694015bcdbd23baff52abf9018511b2/assets/jpeg_image_compression_visual_analysis_with_subsampling_0.png)
 
 
 Also a simple analysis of average time taken to save respective images on disc is as follows:
 
-![Saving Time comparisons](assets\saving_time_comparison.PNG)
+![Saving Time comparisons](https://github.com/Nachimak28/pil_image_jpeg_compression_analysis/blob/0992560d8694015bcdbd23baff52abf9018511b2/assets/saving_time_comparison.PNG)
 
 
 **Insights:**
